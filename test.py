@@ -34,4 +34,4 @@ outputs = 2000
 choices = chooseMouve(array, weights, outputs)
 
 for i in array:
-    print(array.count(i)/outputs)
+    print(choices.count(i)/outputs)
